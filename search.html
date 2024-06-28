@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            search
+        </title>
+        <style>
+            .header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .left-section {
+                
+                width: 120px;
+                font-family: ARIAL;
+                font-weight: bold;
+                font-size: 15PX;
+                color: white;
+                display: flex;
+                align-items: center;
+                margin-left: 40px;
+
+            }
+
+            .middle-section {
+                
+                flex: 1;
+                height: 70px;
+                margin-left: 60px;
+                margin-right: 60px;
+                max-width: 700px;
+                display: flex;
+                align-items: center;
+                
+            }
+
+            .video-info {
+                height: 30px;
+                flex: 1;
+                border-radius: 20px;
+                border: none;
+                padding-left: 10px;
+                width: 0;
+            }
+
+            .video-info::placeholder {
+                font-family: Arial, ;
+                font-size: 15px;
+                
+            }
+
+            .right-section {
+               
+                width: 200px;
+                display: flex;
+                align-items: center;
+                border: 1px;
+                
+                
+            }
+
+            .bottom-1 {
+                background-color: rgb(72, 72, 202);
+                border-width: 1px;
+                border-color: white;
+                color: white;
+                width: 90px;
+                height: 40px;
+               
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(72, 72, 202);">
+        <div class="header">
+            <div class="left-section"> 
+               HOME
+            </div>
+            <div class="middle-section">
+                <input class="video-info" type="text" placeholder="search">
+                </div>
+            <div class="right-section"> 
+                <button class="bottom-1"> Dowload</button>
+
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

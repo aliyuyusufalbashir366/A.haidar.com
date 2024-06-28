@@ -1,0 +1,67 @@
+body {
+    padding-top: 100px;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.left-section {
+    
+    display: flex;
+    align-items: center;
+    
+    margin-right: 9px;
+   
+}
+
+.image-1 {
+    height: 70px;
+    border-radius: 80px;
+    
+}
+
+.video-pragraph-1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.video-pragraph-2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.video-pragraph-3 {
+    font-size: 15px;
+    color: gray;
+}
+
+.middle-section {
+    
+    flex: 1;
+    
+    
+    max-width: 800px;
+    font-size: 0;
+
+}
+
+.right-section {
+    flex-shrink: 100px;
+    width: 130px;
+}
+
+.video-pragraph-4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+

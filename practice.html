@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            grid-practice
+        </title>
+        <style>
+            .thumnail {
+                width: 180px;
+                display: inline-block;
+               
+            }
+           .video-title {
+           width: 25px;
+           border-radius: 100px;
+           display: inline-block;
+           } 
+           .video-info {
+            display: inline-block;
+            margin-top: 2px;
+            vertical-align: top;
+           }
+           .channel-picture {
+            display: block;
+            border: none;
+            width: 150px;
+            height: 30px;
+            color: white;
+            background-color:blue;
+            border-radius: 5px;
+            cursor: pointer;
+           }
+           .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+           }
+           
+        </style>
+    </head>
+    <body style="
+    margin-top: 0;
+    margin: 0;
+    ">
+       <div class="video-grid">
+        <div>
+            <img class="thumnail" src="IMAGE-PRACTICE/image-1.JPG" alt="" > 
+                    <p>
+                        oliva
+                       </p>
+                       <img class="video-title" src="IMAGE-PRACTICE/channel-1.jpeg" alt="">
+                       <p class="video-info">
+                        2 mutual frient
+                       </p>
+                       <button class="channel-picture">
+                        Add Frient
+                       </button>
+           </div> 
+           
+           <div>
+            <img class="thumnail" src="IMAGE-PRACTICE/imsge-2.JPG" alt="" > 
+                    <p>
+                        Mimi
+                       </p>
+                       <img class="video-title" src="IMAGE-PRACTICE/channel-1.jpeg" alt="">
+                       <p class="video-info">
+                        2 mutual frient
+                       </p>
+                       <button class="channel-picture">
+                        Add Frient
+                       </button>
+           </div>  
+    
+           <div>
+            <img class="thumnail" src="IMAGE-PRACTICE/image-3.JPG" alt="" > 
+                    <p>
+                        Rex
+                       </p>
+                       <img class="video-title" src="IMAGE-PRACTICE/channel-1.jpeg" alt="">
+                       <p class="video-info">
+                        2 mutual frient
+                       </p>
+                       <button class="channel-picture">
+                        Add Frient
+                       </button>
+           </div>  
+       </div>
+       
+    </body>  
+</html>
